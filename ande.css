@@ -1,0 +1,21 @@
+/* body{background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);} */
+/* 页面底色 */
+/* .container{border-color: red;border-width: medium;text-align: center;height: 100%}
+.welcome{text-align: center;display: inline;font-size: 6em;} */
+.logo{width: 200px;margin-top: 8px;}
+.touxiang{max-width:150px;border-radius: 100%;margin-bottom: 15px;height: auto;}
+.lunbo{max-height: 450px;}
+.carousel-inner{border-radius:15px;}
+.username{background-color: #007bff;}
+.quote{color: #0062cb;display: block;font-family: "楷体";}
+
+.rec1{background-color: #007bff;color: white;border-radius: 5px;font-size: 0.8em;display: block;}
+.rec2{background-color:#ffffff;color: #0062cb;border-radius: 5px;font: 0.7em thick;display: block;}
+.rec3{background-color: #ffffff;color: #000000;border-radius: 5px;font-size: 0.8em;display: block;}
+
+.card{margin: 20px;}
+
+.tita{max-width: 100%;max-height: 100%;}
+
+.gdon{}

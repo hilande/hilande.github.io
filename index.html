@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>hilande的集合器</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- width：控制 viewport 的大小，可以是数值如 600，或特殊的值device-width设备的宽度。
+initial-scale：初始缩放比例，也即是当页面第一次 load 的时候缩放比例。
+maximum-scale：允许用户缩放到的最大比例。
+minimum-scale：允许用户缩放到的最小比例。
+user-scalable：用户是否可以手动缩放。
+shrink-to-fit=no 自动适应手机屏幕的宽度。 -->
+
+<!-- 新 Bootstrap4 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="ande.css">
+<script src="ande.js" charset="utf-8"></script>
+
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<!-- 001.导航栏 -->
+    <nav class="navbar navbar-expand-md navbar-light">
+    	<div class="container-fluid">
+    		<a class="navbar-brand" href="index.html" target="_self"><img src="image/LOGO.png" class="logo"></a>
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+    			<span class="navbar-toggler-icon"></span>
+    		</button>
+    		<div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+          <ul class="nav nav-pills " role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#home">首页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#learn">学习</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" data-toggle="pill" href="#work">工作</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" data-toggle="pill" href="#life">生活</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#person">个人</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">切换账号</a>
+                <a class="dropdown-item" href="#">注销账号</a>
+            </li>
+          </ul>
+        </div>
+			</div>
+    </nav>
+<!-- 001.导航栏 -->
+
+<!-- 小div下是这个标签下的内容 -->
+    <div class="tab-content">
+
+
+
+<!-- 004.首页的内容 👇 -->
+<div id="home" class="container tab-pane fade"><br>
+<div class="container-fluid padding">
+	<div class="row padding">
+    <div class="col-lg-3">
+      <div class="container-fluid padding">
+      	<div class="row padding">
+      		<div class=" col-5 col-xl-12 col-lg-12">
+            <img src="image/me.png" class="img-fluid touxiang " >
+      		</div>
+      		<div class=" col-7 col-xl-12 col-lg-12" style="padding:10px;">
+            <kbd class="username">I'm Hilande</kbd>
+            <p class="quote">且视他人之疑目如盏盏鬼火，大胆地去走自己的夜路</p>
+            <hr>
+            <kbd class="rec1">最近浏览</kbd>
+            <kbd class="rec2">创意交互设计</kbd>
+            <kbd class="rec2">数据基础</kbd>
+            <kbd class="rec2">更多>></kbd>
+      		</div>
+      	</div>
+      </div>
+    </div>
+<!-- 002.轮播图 👇 -->
+		<div class="col-lg-9">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        <!-- 轮播图片 -->
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="image/轮播图/5.jpg" class="lunbo">
+          </div>
+          <div class="carousel-item">
+            <img src="image/轮播图/6.jpg" class="lunbo">
+          </div>
+          <div class="carousel-item">
+            <img src="image/轮播图/8.jpg" class="lunbo">
+          </div>
+          <div class="carousel-item">
+            <img src="image/轮播图/3.jpg" class="lunbo">
+          </div>
+        </div>
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+		</div>
+<!-- 002.轮播图 👆 -->
+	</div>
+	<hr class="fenge">
+</div>
+<!-- 003.尾部 👇-->
+<footer>
+  <h5 class="display-4" style="color:#007bff;font-size:1.4em;margin-left:14px;">&copy; hilande.github.io</h5>
+</footer>
+<!-- 003.尾部 👆-->
+</div>
+<!-- 004.首页的内容 👆 -->
+
+
+
+<!-- 008.学习中的内容 👇 -->
+<div id="learn" class="container tab-pane active"><br>
+<!-- 007.学习中的第一页 👇 -->
+<div class="container-fluid padding">
+	<div class="row padding">
+    <!-- card 1 ↓-->
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="image/term/1.jpg">
+				<div class="card-body">
+					<h4 class="card-title">大一上学期</h4>
+					<p class="card-text">这是一段对大一上学期的评价</p>
+					<a href="#" class="btn btn-primary">查看详情</a>
+				</div>
+			</div>
+		</div>
+    <!-- card 2 ↓-->
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="image/term/2.jpg">
+				<div class="card-body">
+					<h4 class="card-title">大一下学期</h4>
+					<p class="card-text">这是一段对大一下学期的评价</p>
+					<a href="#" class="btn btn-primary">查看详情</a>
+				</div>
+			</div>
+		</div>
+    <!-- card 3 ↓ -->
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="image/term/3.jpg">
+				<div class="card-body">
+					<h4 class="card-title">大二上学期</h4>
+					<p class="card-text">这是一段对大二上学期的评价</p>
+					<a href="#" class="btn btn-primary">查看详情</a>
+				</div>
+			</div>
+		</div>
+    <!-- card 4 ↓ -->
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="image/term/4.png">
+				<div class="card-body">
+					<h4 class="card-title">大二下学期</h4>
+					<p class="card-text">这是一段对大二下学期的评价 <mark>这个可以点</mark></p>
+					<a href="term4.html" class="btn btn-primary" target="_blank">查看详情</a>
+				</div>
+			</div>
+		</div>
+    <!-- card 5 ↓ -->
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="image/term/5.jpg">
+				<div class="card-body">
+					<h4 class="card-title">大三上学期</h4>
+					<p class="card-text">这是一段对大三上学期的评价</p>
+					<a href="#" class="btn btn-primary">查看详情</a>
+				</div>
+			</div>
+		</div>
+    <!-- card 6 ↓ -->
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="image/term/6.jpg">
+				<div class="card-body">
+					<h4 class="card-title">大三下学期</h4>
+					<p class="card-text">这是一段对大三下学期的评价</p>
+					<a href="#" class="btn btn-primary">查看详情</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 007.学习中的第一页 👆 -->
+</div>
+
+
+      <!-- 005.暂未开启 👇 -->
+      <div id="work" class="container tab-pane fade"><br>
+        <h3>工作</h3>
+        <p>workkkk</p>
+      </div>
+      <div id="life" class="container tab-pane fade"><br>
+        <h3>生活</h3>
+        <p>lifeee</p>
+      </div>
+      <!-- 005.暂未开启 👆 -->
+
+
+    </div>
+<!-- 小div下是这个标签下的内容 -->
+
+
+
+
+
+  </body>
+</html>
